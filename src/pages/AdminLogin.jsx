@@ -9,7 +9,7 @@ export default function AdminLogin() {
   const navigate = useNavigate();
   const { login, isLoggedIn } = useAuth();
 
-  // ✅ Redirect if already logged in
+  // ✅ Redirect if already logged in/sdsds
   useEffect(() => {
     const token = localStorage.getItem("token");
     if (isLoggedIn || token) {
