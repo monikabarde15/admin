@@ -1,8 +1,10 @@
 # Node modules (frontend + backend)
 node_modules/
+node_modules_temp/
 backend/node_modules/
 
 node_modules
+node_modules_temp
 backend/node_modules
 
 
